@@ -40,8 +40,6 @@ for block in blocks:
     # print("Block End address: {}".format(block.getMaxAddress()))
     # next_blocks = block.getDestinations(TaskMonitor.DUMMY)
     print("Next blocks: {}".format(next_blocks))
-    # print("Next blocks: {}".format(', '.join([str(addr) for addr in next_blocks])))
-    # print("Predecessor blocks: {}".format(', '.join([str(addr) for addr in block.getSources()])))
     print("========================================")
     print_disassembly(block)
     print("")
