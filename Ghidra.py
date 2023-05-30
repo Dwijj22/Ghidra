@@ -1,7 +1,7 @@
 from __main__ import *
 import ghidra_basics as gh
 
-# To get the current program
+# To get the program to be disassembled
 program = gh.current_program("/home/cs/development/c++/a.out")
 
 # To get the listing
